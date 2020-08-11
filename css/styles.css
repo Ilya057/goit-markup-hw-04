@@ -158,16 +158,7 @@ a.link {
   display: inline-flex;
   margin-right: 10px;
 }
-.post::before {
-  width: 16px;
-  height: 11px;
-  background-image: url(../images/envelope.svg);
-}
-.phone::before {
-  width: 9px;
-  height: 15px;
-  background-image: url(../images/smartphone.svg);
-}
+
 .hero {
   text-align: center;
   background-image: linear-gradient(
