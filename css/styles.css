@@ -253,7 +253,7 @@ a.link {
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
-.section-name {
+.title {
   margin-top: 0px;
   margin-bottom: 50px;
 
