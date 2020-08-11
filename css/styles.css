@@ -215,6 +215,7 @@ a.link {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .list-section {
@@ -274,10 +275,10 @@ a.link {
   /* or 171% */
   letter-spacing: 0.03em;
 }
-.section.members {
+.section.team {
   background-color: var(--secondary-bg-color);
 }
-.members img {
+.team img {
   display: block;
 }
 .section .section-team {
