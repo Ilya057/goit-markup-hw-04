@@ -41,12 +41,11 @@ body {
 a {
   text-decoration: none;
 }
-ul {
-  list-style: none;
-  padding-left: 0px;
-}
-li {
-  list-style: none;
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .header {
   border-bottom: 1px solid var(--border-color);
@@ -101,10 +100,11 @@ li {
   font-size: 24px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+
+  margin-right: 85px;
 }
 
-.logo .part {
-  margin-right: 85px;
+.part {
   color: #000000;
 }
 .site-nav .link:hover,
@@ -160,6 +160,9 @@ a.link {
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-image: linear-gradient(
       to right,
@@ -174,7 +177,6 @@ a.link {
 }
 .hero-title {
   color: var(--white);
-  padding-top: 200px;
   margin-top: 0px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -185,10 +187,13 @@ a.link {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.hero-content {
+  max-width: 696px;
+}
 
 .main-button {
   display: inline-block;
-  min-width: 200;
+  min-width: 200px;
   padding: 10px 32px;
   border-radius: 4px;
   text-decoration: none;
@@ -201,6 +206,9 @@ a.link {
   line-height: 1.8;
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
+}
+.icon:hover {
+  fill: var(--accent);
 }
 
 .section-title {
