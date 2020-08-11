@@ -205,7 +205,7 @@ a.link {
   fill: var(--accent);
 }
 
-.section-title {
+.benefits-item-title {
   margin-top: 30px;
   margin-bottom: 10px;
 
@@ -265,7 +265,7 @@ a.link {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-text {
+.benefits-item-text {
   margin-top: 10px;
   margin-bottom: 0px;
 
@@ -330,16 +330,8 @@ a.link {
 .social .link:focus {
   color: var(--accent);
 }
-.features-title {
-  color: var(--secondary-text-color);
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-features {
+.feature-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
