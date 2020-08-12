@@ -223,6 +223,9 @@ a.link {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.grid-item {
+  width: calc((100% - 30px * 3) / 4);
+}
 .grid-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -250,6 +253,10 @@ a.link {
 .features {
   display: flex;
 }
+.feature-item {
+  width: calc((100% - 30px * 2) / 3);
+}
+
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -285,6 +292,9 @@ a.link {
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
+}
+.team-item {
+  width: calc((100% - 30px * 3) / 4);
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -380,6 +390,7 @@ a.link {
 .example-element {
   margin-right: 30px;
   margin-bottom: 30px;
+  width: calc((100% - 30px * 2) / 3);
 }
 .example-element:nth-child(3n) {
   margin-right: 0px;
@@ -456,7 +467,6 @@ a.link {
 
 .img {
   display: block;
-  width: 370px;
 }
 /* Подвал */
 .footer {
