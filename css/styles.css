@@ -190,7 +190,7 @@ a.link {
   min-width: 200px;
   padding: 10px 32px;
   border-radius: 4px;
-  text-decoration: none;
+  /* text-decoration: none; */
 
   color: var(--white);
   background-color: var(--accent);
