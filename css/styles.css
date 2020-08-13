@@ -10,6 +10,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -129,11 +131,17 @@ a.link {
   margin-bottom: 0px;
 }
 
+.contact-list svg {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.contact-list svg:hover {
+  fill: aqua;
+}
 .contact {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.16;
-  /* identical to box height */
   letter-spacing: 0.02em;
 }
 .contact + .contact {
@@ -146,11 +154,6 @@ a.link {
 .contact.info:hover,
 .contact.info:focus {
   color: var(--accent);
-}
-.contact.link::before {
-  content: "";
-  display: inline-flex;
-  margin-right: 10px;
 }
 
 .hero {
@@ -200,9 +203,6 @@ a.link {
   line-height: 1.8;
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
-}
-.icon:hover {
-  fill: var(--accent);
 }
 
 .benefits-item-title {
@@ -273,9 +273,6 @@ a.link {
   letter-spacing: 0.03em;
 }
 .benefits-item-text {
-  margin-top: 10px;
-  margin-bottom: 0px;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -289,8 +286,6 @@ a.link {
   display: block;
 }
 .section .section-team {
-  margin-top: 0px;
-  margin-bottom: 0px;
   display: flex;
 }
 .team-item {
@@ -401,12 +396,13 @@ a.link {
 .card-content {
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
 .example-title {
-  padding-top: 20px;
   margin-top: 0px;
   margin-bottom: 4px;
   color: var(--secondary-text-color);
@@ -421,9 +417,7 @@ a.link {
   display: block;
 }
 .example-text {
-  margin-top: 4px;
   margin-bottom: 0px;
-  padding-bottom: 20px;
   color: var(--primary-text-color);
 
   font-weight: 500;
