@@ -31,6 +31,11 @@ body {
 
   font-family: Roboto, sans-serif;
 }
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -200,7 +205,7 @@ a.link {
   letter-spacing: 0.06em;
 }
 
-.benefits-item-title {
+.benefit-item-title {
   margin-top: 30px;
   margin-bottom: 10px;
 
@@ -224,7 +229,7 @@ a.link {
 .grid-item:not(:last-child) {
   margin-right: 30px;
 }
-.grid-item::before {
+.benefit-item::before {
   content: "";
   display: block;
   height: 120px;
@@ -233,16 +238,16 @@ a.link {
   background-color: var(--secondary-bg-color);
 }
 .grid-item:nth-child(1)::before {
-  background-image: url(../images/antenna-1.png);
+  background-image: url(../images/antenna-1.svg);
 }
 .grid-item:nth-child(2)::before {
-  background-image: url(../images/clock-1.png);
+  background-image: url(../images/clock-1.svg);
 }
 .grid-item:nth-child(3)::before {
-  background-image: url(../images/diagram-1.png);
+  background-image: url(../images/diagram-1.svg);
 }
 .grid-item:nth-child(4)::before {
-  background-image: url(../images/astronaut-1.png);
+  background-image: url(../images/astronaut-1.svg);
 }
 
 .features {
@@ -267,7 +272,7 @@ a.link {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.benefits-item-text {
+.benefit-item-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
